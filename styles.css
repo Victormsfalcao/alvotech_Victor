@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Concert One;
+}
+
+.header {
+    background-color: #46177D;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    max-height: 80px;
+    margin-left: 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 70px;
+}
+
+h1 {
+    color: #00D78B;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.botao-voltar {
+    position: fixed;
+    bottom: 400px;
+    left: 20px;
+}
